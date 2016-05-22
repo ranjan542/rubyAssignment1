@@ -10,6 +10,6 @@ get '/italian' do
   "Ciao!"
 end
 
-get '/' do
+get '/abc' do
   erb :index
 end
