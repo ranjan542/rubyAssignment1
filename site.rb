@@ -13,3 +13,6 @@ end
 get '/abc' do
   erb :index
 end
+
+ENV['PORT'] ||= '4000'
+set :port, ENV['PORT']
