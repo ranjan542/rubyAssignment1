@@ -3,5 +3,23 @@
   padding: 10px;
   margin: 10px;
   text-align: center;
+}
 
+.profile h1{
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.profile img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+html{
+  background: url(https://scontent-sjc2-1.xx.fbcdn.net/t31.0-8/11958117_10153155313033951_4437392498927179505_o.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

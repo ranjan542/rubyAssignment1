@@ -2,7 +2,7 @@ require 'bundler/setup'
 require 'sinatra'
 set :port, 4000
 set :bind, '0.0.0.0'
-get '/' do
+get '/abc' do
   "I am alive"
 end
 
@@ -10,7 +10,7 @@ get '/italian' do
   "Ciao!"
 end
 
-get '/abc' do
+get '/' do
   erb :index
 end
 
